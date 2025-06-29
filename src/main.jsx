@@ -6,6 +6,7 @@ const config = {
     { label: "Phone", value: "0818520056" },
     { label: "Email", value: "11236187@st.neu.edu.vn" },
   ],
+  "user-name": "Lương Minh Quân",
   "about-me": `I'm a second-year university student passionate about web development. I'm currently focused on building backend applications using Node.js and Express, and I'm also learning the basics of frontend development with React. I enjoy creating RESTful APIs, working with databases like MongoDB and PostgreSQL, and learning how full-stack applications work. I'm constantly looking to improve my coding skills through hands-on projects and collaboration. Whether it's building a simple API or a full-stack web app, I love solving problems and turning ideas into working code.`,
   "education": [
     {label: "GPA (2023 - NOW)", value: " 3.6 / 4.0 - National Economics University"},
