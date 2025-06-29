@@ -41,6 +41,12 @@ const config = {
       "title": "Trading Solution Website (developing)",
       "description": "A awesome website for self creating trading strategy and backtesting by drag and drop built-in components and custom node. Support community to share their strategy and backtest result",
       "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Leafy for Researcher",
+      "description": "A web application that allows researchers to create and manage their own research projects, including data collection, analysis, and collaboration with other researchers.",
+      "link": "https://github.com/Hina845/Leafy_for_researcher_v2"
     }
   ]
 }
