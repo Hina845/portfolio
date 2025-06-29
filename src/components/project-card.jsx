@@ -9,6 +9,7 @@ const ProjectCard = ({ project, isHovered, onHover, onLeave }) => {
                 }`}
             onMouseEnter={onHover}
             onMouseLeave={onLeave}
+            onClick={() => window.open(project.link, '_blank')}
         >
             <h4 className="text-cyan-400 mb-3 text-lg font-semibold">{project.title}</h4>
             <p className="text-slate-300 text-sm leading-relaxed">{project.description}</p>

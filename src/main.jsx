@@ -13,8 +13,8 @@ const config = {
   ],
   "social-links": {
     "github": "https://github.com/Hina845",
-    "linkedin": "",
-    "facebook": ""
+    "linkedin": "https://www.linkedin.com/in/qu%C3%A2n-l%C6%B0%C6%A1ng-minh-7577a12a0/",
+    "facebook": "https://www.facebook.com/quan.luong.308856/"
   },
   "skills": [
     { label: "Backend (Node.js + Express)", value: "8/10" },
@@ -34,7 +34,7 @@ const config = {
       "id": 1,
       "title": "Hina Extension",
       "description": "A powerful Chrome Extension for Crypto realtime trading signal notification and provide a faster and safer way to scalp trading",
-      "link": ""
+      "link": "https://github.com/Hina845/HinaExtension"
     },
     {
       "id": 2,
@@ -53,7 +53,7 @@ export const userContext = createContext()
 
 export default function Main() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 via-purple-600 to-blue-800">
+    <div className="min-h-screen bg-gradient-to-br from-blue-700 to-purple-600">
       <div className="max-w-7xl mx-auto p-5">
         <userContext.Provider value={config}>
           <ProfileContainer />

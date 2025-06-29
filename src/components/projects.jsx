@@ -17,7 +17,6 @@ const Projects = () => {
           key={project.id}
           project={project}
           isHovered={hoveredProject === project.id}
-          onClick={() => window.open(project.url, '_blank')}
           onHover={() => setHoveredProject(project.id)}
           onLeave={() => setHoveredProject(null)}
         />
